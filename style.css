@@ -49,5 +49,18 @@ h1{
     padding-left: 20px;
     padding-right: 40px;
     box-shadow: 10px 10px 20px rgb(27, 30, 230);
-    border-radius: 20px;
+    border-radius: 5px;
+}
+#bd{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, rgb(255, 3, 3));
+    border-image-slice: 1;
+}
+#pd{
+    border-right: 5px solid;
+    border-image: linear-gradient(rgb(54, 199, 10), rgb(255, 17, 17));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
